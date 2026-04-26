@@ -23,5 +23,3 @@ export const sparklingBottle = fillDrinkBottleWithSparkling(drinkBottle)
 //
 console.log(drinkBottle)
 console.log(sparklingBottle)
-
-
