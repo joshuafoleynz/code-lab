@@ -1,2 +1,5 @@
 # Vite dependencies folder
 .vite/
+
+# VS code folder
+.vscode/
