@@ -1,28 +1,30 @@
-# javascript-playground
+# code-lab
 
-A simple space for practicing JavaScript.
+A simple space for practicing coding.
 
 ## Purpose
 
 This repo is for:
-- Practicing JavaScript concepts
+- Practicing coding
 - Writing small test functions
-- Experimenting with Javascript
+- Experimenting with programming languages.
 
 ## Structure
 
-Everything lives in the `playground/` folder.
-
-Keep it simple and organize it overtime.
+Structure of the project goes:
+- Everything lives in the `client/` folder.
+- I will organize the project overtime.
+- I will keep it simple
 
 ## Guidelines
 
+Guidelines of this lab:
 - Keep code small and focused
 - Add comments when learning something new
-- Rename or reorganize files when needed
 - Delete anything that’s no longer useful
 
 ## Notes
 
-This is a personal sandbox for learning and experimentation.
-It’s not meant for polished or production-ready work.
+Keeping in mind:
+- This is a personal sandbox for learning and experimentation.
+- It’s not meant for a portfolio piece of work.
