@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/joshuafoleynz/code-lab/issues"
   },
-  "homepage": "https://github.com/joshuafoleynz/code-lab#readme"
+  "homepage": "https://github.com/joshuafoleynz/code-lab#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
