@@ -1,5 +1,5 @@
 // Import server function
-import server from '../client/server/server'
+import server from '../client/server/server.ts'
 
 // Create port
 const port = 3000
