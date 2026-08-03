@@ -5,7 +5,7 @@ import * as Path from 'path'
 // Declare server varible
 const server = express()
 
-// Create a server get and send request
+// Send a message to the server
 server.get('/', (req, res) => {
   res.send('<h1>Hello world</h1>')
 })
