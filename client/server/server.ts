@@ -1,4 +1,4 @@
-// Import express
+// Import functions
 import express from 'express'
 
 // Declare server varible
