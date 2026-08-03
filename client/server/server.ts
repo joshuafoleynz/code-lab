@@ -1,5 +1,6 @@
 // Import functions
 import express from 'express'
+import * as Path from 'path'
 
 // Declare server varible
 const server = express()
