@@ -3,3 +3,6 @@
 
 # VS code folder
 .vscode/
+
+# Node modules
+node_modules/
