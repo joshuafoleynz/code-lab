@@ -12,3 +12,5 @@ server.get('/', (req, res) => {
 
 // Export server varible
 export default server
+
+// Update: Up to doing responding with a file in the server get request which is currently not working.
