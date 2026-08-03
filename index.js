@@ -1,10 +1,16 @@
-// Import functions from bottle.js
-import { drinkBottle } from './playground/bottle.js'
-import { fillDrinkBottleWithSparkling } from './playground/bottle.js'
-import { sparklingBottle } from './playground/bottle.js'
+// Import express
+import express from 'express'
 
-// Create welcome message
-const welcomeMessage = "Welcome to Joshs Code-Lab!"
+// Declare port and server varibles
+const port = 3000
+const server = express()
 
-// Console.log out welcome message
-console.log(welcomeMessage)
+// Create a server get and send request
+server.get('/', (req, res) => {
+  res.send('<h1>Hello world</h1>')
+})
+
+// Console.log to listen what server were on
+server.listen(port, () => {
+  console.log('The server is listening on port', port)
+})
