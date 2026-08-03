@@ -2,7 +2,7 @@
 import express from 'express'
 
 // Declare port and server varibles
-const port = 3000
+const port = 5173
 const server = express()
 
 // Create a server get and send request
