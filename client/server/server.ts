@@ -10,5 +10,7 @@ server.get('/', (req, res) => {
   res.send('<h1>Hello world</h1>')
 })
 
+// Send html file to the server
+
 // Export server varible
 export default server
