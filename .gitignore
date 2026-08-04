@@ -4,5 +4,5 @@
 # VS code folder
 .vscode/
 
-# Node modules
+# Node modules folder
 node_modules/
