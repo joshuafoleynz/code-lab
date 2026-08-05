@@ -10,5 +10,7 @@ server.get('/', (req, res) => {
   res.sendFile(Path.join(process.cwd(), '../index.html'))
 })
 
+// Req object
+
 // Export server varible
 export default server
