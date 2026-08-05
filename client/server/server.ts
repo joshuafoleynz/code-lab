@@ -29,6 +29,14 @@ server.get('/:username/:repo', (req, res) => {
 })
 
 // Best widget
+server.get('/:id', (req, res) => {
+  const id = req.params.id
+  const widgetObj = {
+    id: id,
+    name: 'The best widget',
+  }
+  res.json(widgetObj)
+})
 
 // Export server varible
 export default server
