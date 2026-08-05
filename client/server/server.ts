@@ -7,7 +7,7 @@ const server = express()
 
 // Send html file to the server
 server.get('/', (req, res) => {
-  res.sendFile(Path.resolve('.../index.html'))
+  res.sendFile(Path.resolve('../../index.html'))
 })
 
 // Export server varible
