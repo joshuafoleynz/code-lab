@@ -6,6 +6,7 @@ import * as Path from 'path'
 const server = express()
 
 // Request JSON in the request body
+server.use(express.json())
 
 // Send html file to the server
 server.get('/', (req, res) => {
