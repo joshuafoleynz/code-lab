@@ -18,6 +18,10 @@ server.get('/', (req, res) => {
 }
 
 // Retrieve who's sending querys
+server.get('/webapps', (req, res) => {
+  const queryPerson = req.query.person
+  res.send(queryPerson + ' is building web applications.')
+})
 
 // Export server varible
 export default server
