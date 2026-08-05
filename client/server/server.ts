@@ -24,7 +24,7 @@ server.get('/webapps', (req, res) => {
 })
 
 // Route parameters
-server.get(':username/:repo', (req, res) => {
+server.get('/:username/:repo', (req, res) => {
   res.send('Username: ' + req.params.username + ', Repo: ' + req.params.repo)
 })
 
