@@ -17,5 +17,7 @@ server.get('/', (req, res) => {
   }
 }
 
+// Retrieve who's sending querys
+
 // Export server varible
 export default server
