@@ -23,5 +23,7 @@ server.get('/webapps', (req, res) => {
   res.send(queryPerson + ' is building web applications.')
 })
 
+// Route parameters
+
 // Export server varible
 export default server
