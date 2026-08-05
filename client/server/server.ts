@@ -8,6 +8,9 @@ const server = express()
 // Request JSON in the request body
 server.use(express.json())
 
+// req.body for the request body
+// const newObj = req.body
+
 // Send html file to the server
 server.get('/', (req, res) => {
   res.sendFile(Path.join(process.cwd(), '../index.html'))
