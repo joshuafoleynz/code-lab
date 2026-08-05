@@ -5,6 +5,8 @@ import * as Path from 'path'
 // Declare server varible
 const server = express()
 
+// Request JSON in the request body
+
 // Send html file to the server
 server.get('/', (req, res) => {
   res.sendFile(Path.join(process.cwd(), '../index.html'))
