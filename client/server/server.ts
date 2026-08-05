@@ -11,6 +11,11 @@ server.get('/', (req, res) => {
 })
 
 // Req object
+{
+  query: {
+    name: 'value'
+  }
+}
 
 // Export server varible
 export default server
