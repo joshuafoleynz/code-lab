@@ -6,3 +6,6 @@
 
 # Node modules folder
 node_modules/
+
+# Testing folder
+testing/
