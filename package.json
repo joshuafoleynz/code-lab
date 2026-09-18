@@ -28,5 +28,9 @@
   "devDependencies": {
     "@types/express": "^5.0.6",
     "vite": "^8.2.0"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true,
+    "node@26.7.0": true
   }
 }
