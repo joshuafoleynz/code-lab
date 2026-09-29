@@ -1,1 +1,2 @@
 Mock api: https://mockapi.io/
+Json Placeholder: https://jsonplaceholder.typicode.com/
