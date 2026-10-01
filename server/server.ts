@@ -12,7 +12,7 @@ server.use(express.json())
 // const newObj = req.body
 
 // Send html file to the server
-server.get('/', (req, res) => {
+server.get('/', (_req, res) => {
   res.sendFile(Path.join(process.cwd(), '../index.html'))
 })
 
