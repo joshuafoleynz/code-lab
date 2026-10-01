@@ -1,5 +1,5 @@
 // Import functions
-import express from 'express';
+import express from 'express'
 import * as Path from 'path'
 
 // Declare server varible
@@ -15,13 +15,6 @@ server.use(express.json())
 server.get('/', (req, res) => {
   res.sendFile(Path.join(process.cwd(), '../index.html'))
 })
-
-// Req object
-{
-  query: {
-    name: 'value'
-  }
-}
 
 // Retrieve who's sending querys
 server.get('/webapps', (req, res) => {
