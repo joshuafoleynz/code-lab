@@ -7,6 +7,9 @@
 # Node modules folder
 node_modules/
 
+# Dist folder
+dist/
+
 # Testing folder
 testing/
 
