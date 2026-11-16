@@ -1,11 +1,11 @@
 // Import functions
-import express from 'express'
+import express from "express";
 
 // Declare server varible
-const server = express()
+const server = express();
 
 // Request JSON in the request body
-server.use(express.json())
+server.use(express.json());
 
 // Export server varible
-export default server
+export default server;
